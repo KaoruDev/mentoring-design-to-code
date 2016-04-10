@@ -1,0 +1,29 @@
+.header-container {
+  font-size: 24px;
+
+  h1 {
+    color: $first-color;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+
+  .right-section {
+    > a {
+      display: inline-block;
+    }
+
+    > a, > i {
+      padding-top: 14px;
+      height: 53px;
+    }
+
+    .user-login {
+      border-right: 1px solid $font-color-inverse-dark;
+      border-left: 1px solid $font-color-inverse-dark;
+      color: $font-color-inverse-dark;
+      font-size: 0.5em;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}

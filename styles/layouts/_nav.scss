@@ -1,0 +1,33 @@
+@import "nav/_header";
+
+nav {
+  font-size: 20px;
+
+  a {
+    border-right: 1px solid $border-color-light;
+    color: $font-color-body;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+
+
+    &:first-child {
+      border-left: 1px solid $border-color-light;
+    }
+
+    &:hover {
+      background-color: $first-color;
+      color: $font-color-inverse;
+    }
+  }
+
+  .counter {
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 2px 5px;
+  }
+
+  .favorite-counter {
+    background-color: #cccccc;
+  }
+}
