@@ -19,7 +19,7 @@ function PathMap(base) {
 
   _.extend(this, base, {
     dist: `${targetRoot}dist/`,
-    images: `${targetRoot}images/`,
+    images: `${targetRoot}design-mocks/assets/`,
     htmls: `${targetRoot}htmls/`,
     root: targetRoot,
     scripts: `${targetRoot}scripts/`,
